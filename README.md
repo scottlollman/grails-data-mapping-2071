@@ -1,23 +1,4 @@
-## Grails 6.2.3 Documentation
+## Bug demonstration
+[grails-data-mapping #2071](https://github.com/apache/grails-data-mapping/issues/2071)
 
-- [User Guide](https://docs.grails.org/6.2.3/guide/index.html)
-- [API Reference](https://docs.grails.org/6.2.3/api/index.html)
-- [Grails Guides](https://guides.grails.org/index.html)
----
-
-## Feature scaffolding documentation
-
-- [Grails Scaffolding Plugin documentation](https://grails.github.io/scaffolding/latest/groovydoc/)
-
-- [https://grails-fields-plugin.github.io/grails-fields/latest/guide/index.html](https://grails-fields-plugin.github.io/grails-fields/latest/guide/index.html)
-
-## Feature asset-pipeline-grails documentation
-
-- [Grails Asset Pipeline Core documentation](https://www.asset-pipeline.com/manual/)
-
-## Feature geb documentation
-
-- [Grails Geb Functional Testing for Grails documentation](https://github.com/grails3-plugins/geb#readme)
-
-- [https://www.gebish.org/manual/current/](https://www.gebish.org/manual/current/)
-
+Demonstrates an issue with the [Hibernate implementation](https://github.com/apache/grails-data-mapping/blob/00fbc39170146c6ae844c66c7e2056a4e7565ba6/grails-data-hibernate5/gorm/src/main/groovy/org/grails/orm/hibernate/AbstractHibernateGormStaticApi.groovy#L217) of the exists method on grails Domain classes.  
